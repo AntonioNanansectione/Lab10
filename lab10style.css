@@ -1,0 +1,64 @@
+:root {
+    --primary-color: #007bff; /* Blue */
+    --secondary-color: #6c757d; /* Gray */
+    --success-color: #28a745; /* Green */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+nav.navbar {
+    background-color: var(--primary-color);
+}
+
+nav.navbar a.navbar-brand,
+nav.navbar ul.navbar-nav li.nav-item a.nav-link {
+    color: #fff;
+}
+
+.hero-section {
+    padding: 100px 0;
+    text-align: center;
+    background-image: url('hero-bg.jpg'); /* Change the URL to your image */
+    background-size: cover;
+    color: #fff;
+}
+
+.service-item i {
+    font-size: 48px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.portfolio-item .card {
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item .card:hover {
+    transform: translateY(-5px);
+}
+
+.contact-section {
+    padding: 100px 0;
+}
+
+footer.footer {
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer.footer ul.list-inline li.list-inline-item {
+    margin-right: 15px;
+}
+
+footer.footer ul.list-inline li.list-inline-item a {
+    color: #fff;
+}
+
+footer.footer ul.list-inline li.list-inline-item a:hover {
+    color: var(--success-color);
+}
